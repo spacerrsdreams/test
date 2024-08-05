@@ -8,7 +8,6 @@ const PORT = process.env.PORT || 3000;
 const TEXT = process.env.TEXT || 'Hello World!';
 
 app.get('/', (_, res) => {
-  console.log(PORT)
   res.send(TEXT);
 });
 
