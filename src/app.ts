@@ -11,6 +11,7 @@ const TEXT = process.env.TEXT || 'Hello World!';
 
 
 app.get('/', (_, res) => {
+  console.log('hit')
   res.send(TEXT);
 });
 
