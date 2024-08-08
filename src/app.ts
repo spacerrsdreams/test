@@ -10,6 +10,7 @@ app.use(express.json());
 app.use(morgan("tiny"));
 
 app.use("/api", rootRouter);
+console.log('hit')
 
 app.use(errorHandler);
 
